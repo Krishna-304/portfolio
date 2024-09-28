@@ -1,0 +1,88 @@
+body {
+    background-color: #f4f4f4; /* Light gray background for a professional look */
+    font-family: Arial, sans-serif; /* Cleaner, more formal font */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #e0e0e0; /* Light gray header for a neutral tone */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc; /* Light border for separation */
+}
+
+header h1 {
+    color: #333; /* Dark text for header */
+    margin: 0; /* Remove default margins */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333; 
+    text-decoration: none; 
+}
+
+.container {
+    margin: 20px;
+}
+
+.main {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc; 
+}
+
+section h1 {
+    color: #333; 
+}
+
+.main-container {
+    display: flex;
+    
+    gap: 20px; 
+}
+
+.grid-container {
+    flex: 1;
+    min-width: 300px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+    margin: 20px 0;
+}
+
+.grid-item {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    background-color: #f4f4f4; 
+}
+
+footer {
+    background-color: #e0e0e0; 
+    color: #333; 
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ccc; 
+}
+
+.profile-pic {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+}
